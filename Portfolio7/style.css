@@ -1,0 +1,559 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Open Sans', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*---------------------------------------------
+================ End CSS Reset ================
+----------------------------------------------- */
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.clear:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+
+/*---------------------------------------------
+================ Header Styles ================
+----------------------------------------------- */
+a{
+	text-decoration: none;
+	color: #FF0000;
+}
+
+
+.header-area .container {
+	padding-top: 30px;
+	border-bottom: 2px solid #ff3300;
+}
+.logo {
+	float: left;
+}
+.logo a {
+	background: url('img/logo.png') no-repeat;
+	width: 230px;
+	height: 126px;
+	display: block;
+	text-indent: -9999px;
+}
+
+
+.social-icons {
+	margin-top: 15px;
+	float: right;
+}
+.social-icons li {
+	float: left;
+}
+.contact-info li:last-child{
+	margin-right:0px;
+}
+.contact-info li {	
+	padding-top: 5px;
+	margin-right: 25px;
+	margin-bottom: 22px;
+	
+}
+.email {
+	background: url('img/message_icon.png') no-repeat;
+	width: 22px;
+	height: 14px;
+	display: block;
+	float: left;
+	margin-top: 3px;
+	margin-right: 6px;
+}
+
+.phone {
+	background: url('img/phone_icon.png') no-repeat;
+	width: 13px;
+	height: 22px;
+	display: block;
+	float: left;
+	margin-right: 6px;
+	margin-top: -5px;
+}
+
+
+.social-links {
+	float: right;
+}
+
+.social-links li a {
+	background-image: url('img/social-icons.png');
+	background-repeat: no-repeat;
+	height: 27px;
+	display: block;
+	text-indent: -9999px;
+	margin-right:27px;
+}
+
+.social-links li a:hover {
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.social-links li:last-child a {
+	margin-right: 0px;
+}
+.facebook a {
+	width: 13px;
+}
+.facebook a:hover {
+	background-position: 0 -30px;
+}
+.twitter a {
+	width: 20px;
+	background-position: -32px 0;
+}
+.twitter a:hover {
+	background-position: -32px -30px;
+}
+.linked-in a {
+	width: 28px;
+	background-position: -72px 0;
+}
+.linked-in a:hover {
+	background-position: -72px -30px;
+}
+.pinterest a {
+	width: 27px;
+	background-position: -120px 0;
+}
+.pinterest a:hover {
+	background-position: -120px -30px;
+}
+.stumbleupon a{ 
+	width: 36px;
+	background-position: -166px 0;
+}
+.stumbleupon a:hover { 
+	background-position: -166px -30px;
+}
+.times a{
+	width: 22px;
+	background-position: -221px 0;
+}
+.times a:hover {
+	width: 22px;
+	background-position: -221px -30px;
+}
+.fox a{
+	width: 35px;
+	background-position: -262px 0;
+}
+.fox a:hover {
+	background-position: -262px -30px;
+}
+
+/*---------------------------------------------
+================ Menu Styles ================
+----------------------------------------------- */
+.menu-area .container {
+	border-top: 1px solid #bfbfbf;
+}
+.mainmenu{
+	margin-left: 200px;
+	
+}
+.mainmenu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.mainmenu li{
+	float: left;
+	margin-right: 4px;
+}
+.mainmenu li a{
+	display: block;
+	color: #575757;
+	padding: 12px 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.mainmenu li a:hover{
+	background: url('img/down_arrow.png') center top no-repeat;	
+	color: #FF3300;
+}
+
+
+/*---------------------------------------------
+================ Slider Styles ================
+----------------------------------------------- */
+
+.slider img{
+	position: relative;
+}
+
+.slider-text{
+	position: absolute;
+	margin-top: -345px;
+	line-height: 40px;
+	margin-left: 470px;
+	letter-spacing: 3px;
+}
+.slider-bg{
+	background: #FF3300;
+	color: #fff;
+	padding: 15px;
+	font-size: 46px;
+}
+
+.slider-text p{
+	color: #FF3300;
+	padding: 15px;
+}
+.slider-text h2{
+	font-size: 46px;
+	padding: 15px;
+}
+
+/*---------------------------------------------
+================ call-to-action Styles ================
+----------------------------------------------- */
+.call-to-action{
+	background: url(img/bg.png) repeat;
+	height: 190px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.call-to-action h3{
+	font-size: 22pt;
+	margin-bottom: 13px;
+	padding-top: 25px;
+
+}
+.call-to-action h4{
+	font-size: 18pt;
+	margin-bottom: 35px;
+}
+
+
+.button{
+	background-color: #FF3300;
+	border-radius: 4px;
+	font-size: 15pt;
+	padding: 10px 50px;
+	margin: 0px 15px;
+	color: #fff;
+}
+.button:hover{
+	color: #000;
+}
+
+/*---------------------------------------------
+================ Featured Services Styles ================
+----------------------------------------------- */
+.services-title {
+	background: url(img/border.png) bottom repeat-x;
+	margin-bottom: 27px;
+}
+
+.services-title h2 {
+	background: #fff;
+	display: inline;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+.single-services{
+	float: left;
+	width: 371px;
+	margin-right: 28px;
+	margin-bottom: 22px;
+}
+
+.single-services h3{
+	color: #FF0000;
+	font-size: 22px;
+	margin: 35px 0px 22px;
+
+}
+
+.single-services p {
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: justify;
+	padding: 5px 0px;	
+}
+
+.single-services:last-child{
+	margin-right: 0px;
+}
+
+.more{
+	float: right;
+	margin:27px 0px 38px;
+}
+
+/*---------------------------------------------
+================ testimonial-area Styles ================
+----------------------------------------------- */
+
+
+.testimonial{
+	background: url(img/border.png) bottom repeat-x;
+
+}
+
+.testimonial h2{
+	background: #fff;
+	font-size: 24px;
+	display: inline;
+	font-weight: 300;
+}
+
+.invated_icon{
+	text-align: center;
+	padding: 27px 100px;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+.client-comments{
+	float: left;
+}
+
+.client{
+	background: url(img/man-icon);
+	float: right;
+	margin-bottom: 60px;
+}
+
+.client h4{
+	margin: -16px 40px 4PX;
+}
+
+/*---------------------------------------------
+================ case-studies-area Styles ================
+----------------------------------------------- */
+
+.case-studies{
+	background: url(img/border.png) bottom repeat-x;
+	margin-bottom: 26px;
+}
+
+.case-studies h2{
+	background: #fff;
+	font-size: 24px;
+	display: inline;
+	font-weight: 300;
+
+}
+
+.single-case-studies{
+	width: 280px;
+	float: left;
+	margin-right: 16px
+}
+
+.case-studies-thumbnail {
+	background: url('img/case-studies-bg.png') bottom no-repeat;
+	padding: 6px;
+}
+
+.single-case-studies h3{
+	margin-top: 18px;
+	font-weight: 300;
+
+
+
+}
+
+.single-case-studies h4{
+	margin-bottom: 20px;
+}
+
+.single-case-studies p{
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+
+.single-case-studies:last-child{
+	margin-right: 0px
+} 
+
+.keep-reading{
+	margin: 6px 0px 60px;
+	float: left;
+}
+
+.comment-love{
+	float: right;
+	margin-top: 7px;
+}
+
+
+
+/*---------------------------------------------
+================ footer-widget-area Styles ================
+----------------------------------------------- */
+.single-services h3{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.single-services p{
+	line-height: 24px;
+  font-size: 14px;
+  padding: 10px;
+}
+.read_more{
+
+}
+
+.footer-widget-area .container {
+	border-bottom: 2px solid #ff3300;
+	background: url(img/footer_top_bg.png) repeat;
+}
+.form{
+
+}
+.login-info{
+
+}
+.name{
+	  width: 325px;
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin: 15px;
+  background: rgba(221, 221, 221, 0.51);
+}
+
+.single-services{
+
+}
+.footer_btn{
+	background: #FF3300;
+	height: 42px;
+	display: block;
+	text-align: center;
+	border-radius: 8px;
+	  margin: 0px 10px;
+}
+.footer_btn p{
+	  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+a.footer_btn p:hover{
+	color: #fff;
+	font-weight: bold;
+}
+.single-blog-post{
+	display: inline-block;
+	padding: 10px 0px;
+}
+.post-img{
+	float: left;
+	margin-right: 10px;
+	padding: 2px;
+}
+
+.title-writer{
+	float: right;
+	margin-top: 10px;
+	width: 271px;
+}
+
+.blog-title{
+	padding: 30px 9px 30px;
+}
+
+/*---------------------------------------------
+================ footer-area Styles ================
+----------------------------------------------- */
+.footer-menu-area .container {
+	border-top: 1px solid #bfbfbf;
+}
+
+.copy-right{
+	float: left;
+	padding: 18px;
+}
+
+.footer-menu{
+	float: right;
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+.footer-menu ul{
+
+}
+.footer-menu li{
+	float: left;
+	border-right: 1px solid #000000;
+	margin: 15px 0px;
+}
+.footer-menu li:last-child{
+	border-right: none;
+}
+.footer-menu li a{
+	display: block;
+	color: #575757;
+	margin-right: 12px;
+	margin-left: 12px;
+	font-size: 15px;
+
+}
+.footer-menu li a:hover{
+	color: #FF3300;
+}
+

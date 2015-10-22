@@ -1,0 +1,174 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+.main{width:1000px;}
+.mainmenu{margin-left: 450px;}
+.logo{margin-bottom: 25px;margin-top: 25px;}
+.logo img{width: 170px}
+.slider_area{height: 450px}
+.slider_area img{width: 1600px}
+.get_access{width:190px;}
+.get_access a h4{color: #CBB814;letter-spacing: 2px;font-size: 22px;text-align: center;margin-top: 7px;}
+.slider_bottom_area{background: #E9B10A;height: 120px}
+.slider_bottom_text h1{width: 773px;}
+.getfree_access{width: 330px;height:54px;border-radius: 10px;margin-top: -48px}
+.getfree_access h2{margin-top: 11px}
+.consulting{width: 220px;height:235px;margin-right: 10px;}
+.consulting img{width: 35px;height: 35px;margin-left: 90px;margin-top: 33px}
+
+.consulting h5{margin-top: 15px;}
+.consulting p{margin-top: 15px;}
+
+.planning{width: 220px;height:235px;margin-right: 10px}
+.planning img{width: 35px;height: 35px;margin-left: 90px;margin-top: 33px}
+.planning h5{margin-top: 15px;}
+.planning p{margin-top: 15px;}
+
+.design{width: 220px;height:235px;margin-right: 10px}
+.design img{width: 35px;height: 35px;margin-left: 90px;margin-top: 33px}
+.design h5{margin-top: 15px;}
+.design p{margin-top: 15px;}
+.build{width: 220px;height:235px;}
+
+.build img{width: 35px;height: 35px;margin-left: 90px;margin-top: 33px}
+.build h5{margin-top: 15px;}
+.build p{margin-top: 15px;}
+.promo_area{margin-top: 100px;margin-bottom: 34px}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.main{width:755px;}
+.mainmenu{margin-left: 216px;margin-top: -52px}
+.logo{margin-bottom: 25px;margin-top: 25px}
+.logo img{width: 170}
+.slider_area{height: 218px}
+.slider_area img{width: 906px}
+.get_access{width:170px;margin-top: -32px}
+.get_access a h4{font-size: 16px;margin-top: 10px}
+.slider_bottom_area{background: #E9B10A;height: 90px}
+.slider_bottom_text h1{width: 773px;margin-top: 13px;word-spacing: 6px;font-size: 29px}
+.getfree_access{width:222px;height:43px;border-radius: 10px;margin-top: -45px}
+.getfree_access h2{margin-top: 10px;font-size: 16px}
+.consulting{width: 157px;height:190px;margin-right: 10px;}
+.consulting img{width: 35px;height: 35px;padding: 5px;margin-left: 58px;margin-top: 10px}
+.promo{width: 750px}
+
+.consulting h5{margin-top: 15px;}
+.consulting p{margin-top: 15px;font-size: 12px}
+
+.planning{width: 157px;height:190px;margin-right: 10px;}
+
+.planning img{width: 35px;height: 35px;padding: 5px;margin-left: 58px;margin-top: 10px}
+.planning h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.planning p{margin-top: 15px;font-size: 12px}
+
+.design{width: 157px;height:190px;margin-right: 10px;}
+
+.design img{width: 35px;height: 35px;padding: 5px;margin-left: 58px;margin-top: 10px}
+.design h5{margin-top: 15px;}
+.design p{margin-top: 15px;font-size: 12px}
+.build{width: 157px;height:190px;margin-right: 10px;}
+
+.build img{width: 35px;height: 35px;padding: 5px;margin-left: 58px;margin-top: 10px}
+.build h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.build p{margin-top: 15px;font-size: 12px}
+.promo_area{margin-top: 50px;margin-bottom: 25px}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+.main{width:300px;}
+.get_access a h4{}
+.slider_bottom_area{background: #E9B10A;height: 120px}
+.slider_bottom_text h1{}
+.getfree_access{width: 330px;height:54px;border-radius: 10px;margin-top: -48px}
+.getfree_access h2{margin-top: 11px}
+.consulting{width: 220px;height:235px;margin-right: 10px;}
+.consulting img{width: 35px;height: 35px;padding: 8px;margin-left: 90px;margin-top: 33px}
+
+.consulting h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.consulting p{text-align: center;margin-top: 15px;color: #E9B10A}
+
+.planning{background:url(img/promo_bg.png) no-repeat scroll 0 0 #EBB30A;border-radius:8px;padding:10px;float: left;width: 220px;height:235px;margin-right: 10px}
+
+.planning img{background:#EBB30A;width: 35px;height: 35px;padding: 8px;border-radius: 5px;margin-left: 90px;margin-top: 33px}
+.planning h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.planning p{text-align: center;margin-top: 15px;color: #E9B10A}
+
+.design{background:url(img/promo_bg.png) no-repeat scroll 0 0 #EBB30A;border-radius:8px;padding:10px;float: left;width: 220px;height:235px;margin-right: 10px}
+
+.design img{background:#EBB30A;width: 35px;height: 35px;padding: 8px;border-radius: 5px;margin-left: 90px;margin-top: 33px}
+.design h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.design p{text-align: center;margin-top: 15px;color: #E9B10A}
+.build{background:url(img/promo_bg.png) no-repeat scroll 0 0 #EBB30A;border-radius:8px;padding:10px;float: left;width: 220px;height:235px;}
+
+.build img{width: 35px;height: 35px;padding: 8px;border-radius: 5px;margin-left: 90px;margin-top: 33px}
+.build h5{margin-top: 15px;}
+.build p{margin-top: 15px;}
+.promo_area{}
+}
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.main{width:460px;}
+.get_access a h4{}
+.slider_bottom_area{background: #E9B10A;height: 120px}
+.slider_bottom_text h1{}
+.getfree_access{width: 330px;height:54px;border-radius: 10px;margin-top: -48px}
+.getfree_access h2{margin-top: 11px}
+.consulting{width: 220px;height:235px;margin-right: 10px;}
+.consulting img{width: 35px;height: 35px;padding: 8px;margin-left: 90px;margin-top: 33px}
+
+.consulting h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.consulting p{text-align: center;margin-top: 15px;color: #E9B10A}
+
+.planning{background:url(img/promo_bg.png) no-repeat scroll 0 0 #EBB30A;border-radius:8px;padding:10px;float: left;width: 220px;height:235px;margin-right: 10px}
+.planning:hover{background:#454545}
+.planning img{background:#EBB30A;width: 35px;height: 35px;padding: 8px;border-radius: 5px;margin-left: 90px;margin-top: 33px}
+.planning h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.planning p{text-align: center;margin-top: 15px;color: #E9B10A}
+
+.design{background:url(img/promo_bg.png) no-repeat scroll 0 0 #EBB30A;border-radius:8px;padding:10px;float: left;width: 220px;height:235px;margin-right: 10px}
+.design:hover{background:#454545}
+.design img{background:#EBB30A;width: 35px;height: 35px;padding: 8px;border-radius: 5px;margin-left: 90px;margin-top: 33px}
+.design h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.design p{text-align: center;margin-top: 15px;color: #E9B10A}
+.build{background:url(img/promo_bg.png) no-repeat scroll 0 0 #EBB30A;border-radius:8px;padding:10px;float: left;width: 220px;height:235px;}
+.build:hover{background:#454545;}
+.build img{background:#EBB30A;width: 35px;height: 35px;padding: 8px;border-radius: 5px;margin-left: 90px;margin-top: 33px}
+.build h5{text-align: center;margin-top: 15px;color: #E9B10A}
+.build p{text-align: center;margin-top: 15px;color: #E9B10A}
+.promo_area{}
+}
